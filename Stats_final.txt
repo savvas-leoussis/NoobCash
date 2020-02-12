@@ -1,0 +1,62 @@
+Nodes: 5
+Difficulty: 2
+Capacity: 1
+Throughput = 2.2586237444998267 Tr/sec
+AverageMiningTime = 7.5761066375364 sec
+
+Nodes: 5
+Difficulty: 2
+Capacity: 5
+Throughput = 5.097981883743282 Tr/sec
+AverageMiningTime = 13.376503034477377 sec
+
+Nodes: 5
+Difficulty: 2
+Capacity: 10
+Throughput = 6.232488622175673 Tr/sec
+AverageMiningTime = 11.863680275047527 sec
+
+Nodes: 5
+Difficulty: 3
+Capacity: 5
+Throughput = 2.4404611511577827 Tr/sec
+AverageMiningTime = 78.30024163877194 sec
+
+Nodes: 5
+Difficulty: 3
+Capacity: 10
+Throughput = 2.8085164040027206 Tr/sec
+AverageMiningTime = 67.41959945196957 sec
+
+
+
+
+Nodes: 10
+Difficulty: 2
+Capacity: 1
+Throughput = 1.3086567489663262 Tr/sec
+AverageMiningTime = 6.1568632845988 sec
+
+Nodes: 10
+Difficulty: 2
+Capacity: 5
+Throughput = 2.5013181514177614 Tr/sec
+AverageMiningTime = 9.212212130527368 sec
+
+Nodes: 10
+Difficulty: 2
+Capacity: 10
+Throughput = 3.4156234756891397 Tr/sec
+AverageMiningTime = 15.793678837251498 sec
+
+Nodes: 10
+Difficulty: 3
+Capacity: 5
+Throughput = 1.7271224553732663 Tr/sec
+AverageMiningTime = 112.19389911874413 sec
+
+Nodes: 10
+Difficulty: 3
+Capacity: 10
+Throughput = 2.341322198004971 Tr/sec
+AverageMiningTime = 120.15761829655746 sec

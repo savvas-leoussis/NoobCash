@@ -1,0 +1,5 @@
+# ignore __pycache__ directory
+# it is created every time we run the code
+/Scaffold_Code/__pycache__/
+/Scaffold_Code_VM/__pycache__/
+

@@ -1,0 +1,41 @@
+IP: 83.212.108.148
+
+VM1
+user@snf-864825.vm.okeanos.grnet.gr
+192.168.0.3
+Pwd: 8YN0z6lJ06
+
+VM2
+user@snf-864826.vm.okeanos.grnet.gr
+192.168.0.4
+Pwd: pkDceJMR0e
+
+VM3
+user@snf-864829.vm.okeanos.grnet.gr
+192.168.0.2
+Pwd: 72GkAQvLKr
+
+VM4
+user@snf-864830.vm.okeanos.grnet.gr
+192.168.0.6
+Pwd: 2fvRr3XADV
+
+VM5
+user@snf-864832.vm.okeanos.grnet.gr
+192.168.0.5
+Pwd: MPepl4d9eJ
+
+Instructions example(10 nodes, difficulty 2, block_capacity 5):
+VMs order is 1-2-3-4-5-1-2-3-4-5
+python3 rest.py -i 192.168.0.3 -p 5000 -n 10 -d 2 -b 5
+python3 rest.py -i 192.168.0.4 -p 5001 -n 10 -d 2 -b 5
+python3 rest.py -i 192.168.0.2 -p 5002 -n 10 -d 2 -b 5
+python3 rest.py -i 192.168.0.6 -p 5003 -n 10 -d 2 -b 5
+python3 rest.py -i 192.168.0.5 -p 5004 -n 10 -d 2 -b 5
+python3 rest.py -i 192.168.0.3 -p 5005 -n 10 -d 2 -b 5
+python3 rest.py -i 192.168.0.4 -p 5006 -n 10 -d 2 -b 5
+python3 rest.py -i 192.168.0.2 -p 5007 -n 10 -d 2 -b 5
+python3 rest.py -i 192.168.0.6 -p 5008 -n 10 -d 2 -b 5
+python3 rest.py -i 192.168.0.5 -p 5009 -n 10 -d 2 -b 5
+
+python3 autorun_all_tests.py ../10nodes (run localy)

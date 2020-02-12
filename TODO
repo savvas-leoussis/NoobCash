@@ -1,0 +1,25 @@
+WALLET:
+sign_transaction() [DONE][CHECKED]
+verify_transaction() [DONE][] same with validate_transaction
+balance() [DONE][CHECKED]
+
+TRANSACTION:
+validate_transaction() [DONE][]
+UTXO??? [DONE][]
+----->view_transactions() [][] HTML related
+
+BASIC FUNCTIONS:
+generate_wallet() [DONE][CHECKED]
+*create_transaction() [DONE][]
+sign_transaction() [DONE][]
+broadcast_transaction() [DONE][]
+verify_signature() [DONE][CHECKED]
+validate_transaction() [DONE][]
+wallet_balance() [DONE][CHECKED]
+mine_block() [DONE][]
+broadcast_block() [DONE][]
+validate_block() [DONE][] (Revisit this-> maybe check transactions too)
+validate_chain() [DONE][]
+*resolve_conflict() [DONE][] well explained in assignment
+
+*help() [][]
